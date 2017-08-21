@@ -1,0 +1,51 @@
+$backgroundColor: #9ad3de;
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+  background: #9ad3de url("thomas-wong-190766.jpg");
+}
+//background: #9ad3de url("background.jpg") no-repeat fixed center;
+h1 {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 5vw;
+  line-height: 1;
+  letter-spacing: 0.2vw;
+  width: 70vw;
+  overflow: hidden;
+}
+
+span {
+  display: inline-block;
+}
+
+[class*="word"] {
+  overflow: hidden;
+  padding: 1.6vw 0;
+}
+li {
+
+}
+
+button {
+  position: fixed;
+  bottom: 12px;
+  left: 12px;
+  padding: 8px 24px 10px;
+  color: white;
+  background-color: darken($backgroundColor, 20%);
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  cursor: pointer;
+
+  &:active {
+    transform: translateY(2px);
+  }
+}
