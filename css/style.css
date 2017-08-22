@@ -69,7 +69,7 @@ li {
   position: relative;
 }
 .fa {
-  color: black;
+  color: white;
 }
 li a {
   animation: animation 6000ms linear both;
