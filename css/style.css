@@ -17,7 +17,7 @@ body {
 h1 {
   text-align: center;
   display: inherit;
-  font-family: 'Sedgwick Ave', cursive;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 3.5vw;
   line-height: 1;
   letter-spacing: 0.2vw;
@@ -26,7 +26,7 @@ h1 {
 h3 {
   text-align: center;
   display: inherit;
-  font-family: 'Sedgwick Ave', cursive;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 1.5vw;
   line-height: 1;
   letter-spacing: 0.2vw;
